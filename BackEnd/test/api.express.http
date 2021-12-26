@@ -1,0 +1,41 @@
+###
+GET http://localhost:8080/todos/all HTTP/1.1
+
+
+###
+POST http://localhost:8080/todos/add HTTP/1.1
+content-type: application/json
+
+{
+    
+    "title":"new todo",
+    "completed": false
+}
+
+###
+PUT http://localhost:8080/todos/update HTTP/1.1
+content-type: application/json
+
+{
+    "id" : 2,
+    "title":"new todo222552",
+    "completed": false
+}
+###
+DELETE http://localhost:8080/todos/delete HTTP/1.1
+content-type: application/json
+
+  {
+     "id": 18
+  }
+
+###
+PUT http://localhost:8080/todos/complete HTTP/1.1
+content-type: application/json
+ 
+ {    
+    "id": 2,
+    "title": "et porro tempora",
+    "completed": false
+  }
+
