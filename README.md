@@ -1,4 +1,4 @@
-# Mars Todo App
+# MARS Todo App
 
 ## Instructions
 
